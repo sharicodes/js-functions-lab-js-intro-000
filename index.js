@@ -19,3 +19,7 @@ the holiday name and number of days till that holiday. The function should retur
  function happyHolidayTo(holiday, name){
    return `Happy ${holiday}, ${name}!`;
  }
+ function holidayCountdown(holiday, numDays){
+   return `It's ${numDays} days until ${holiday}!`;
+ }
+ 
